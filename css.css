@@ -1,0 +1,9 @@
+div{
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+table,tr,td{
+    border-collapse: collapse;
+    border: 1px solid #000;
+}

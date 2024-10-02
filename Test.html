@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <section>
+        <h1>ข้อที่ 1</h1>
+        <div class="pyramid" id="pyramid"></div>
+        <input type="text" name="" id="PyramidValue" oninput="Pyramid(this.value)" placeholder="Enter Number">
+    </section>
+    <section>
+        <h1>ข้อที่ 2</h1>
+        <table>
+            <thead>
+                <tr>
+                    <td>100</td>
+                    <td>7</td>
+                    <td>107</td>
+                    <td>3</td>
+                    <td>104</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="number" value="" oninput="Cal(this)">
+                    </td>
+                    <td>
+                        <input type="number" value="" oninput="Cal(this)">
+                    </td>
+                    <td>
+                        <input type="number" value="" oninput="Cal(this)">
+                    </td>
+                    <td>
+                        <input type="number" value="" oninput="Cal(this)">
+                    </td>
+                    <td>
+                        <input type="number" value="" oninput="Cal(this)">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="clears()">Clear</button>
+    </section>
+    <section>
+        <h1>ข้อที่ 3</h1>
+        <table>
+            Output
+            <thead>
+                <tr>
+                    <td>Code</td>
+                    <td>Name</td>
+                    <td>City</td>
+                </tr>
+            </thead>
+            <tbody id="result">
+            </tbody>
+        </table>
+
+    </section>
+    <section>
+        <h1>ข้อที่ 4</h1>
+        <div class="div">
+            <canvas id="myChart" width="100" height="100"></canvas>
+            <canvas id="myChartPie" width="100" height="100"></canvas>
+        </div>
+    </section>
+</body>
+<script src="test.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</html>
